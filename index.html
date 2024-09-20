@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{url_for('static',filename='img/vedas_logo.png')}}">
+    <link rel="icon" type="image/png" href="{{url_for('static',filename='img/vedas_logo.png')}}">
+    <title>
+      Pool manager
+    </title>
+
+    <!-- CSS Files -->
+    <link id="pagestyle" href="{{url_for('static',filename='css/material-dashboard.css')}}" rel="stylesheet" />
+    <link id="pagestyle" href="{{url_for('static',filename='css/vedas_title.css')}}" rel="stylesheet" />
+    <link id="pagestyle" href="{{url_for('static',filename='css/slice.css')}}" rel="stylesheet" />
+
+    <script src="{{url_for('static',filename='js/vue.js')}}"></script>
+    <script src="{{url_for('static',filename='js/highcharts.js')}}"></script>
+    <script src="{{url_for('static',filename='js/exporting.js')}}"></script>
+    <script src="{{url_for('static',filename='js/exporting-data.js')}}"></script>
+    <script src="{{url_for('static',filename='js/access.js')}}"></script>
+    <script src="{{url_for('static',filename='js/nodata.js')}}"></script>
+
+
+
+
+
+</head>
+<body class="g-sidenav-show  bg-gray-200" style="font-family: Arial, Helvetica, sans-serif;">
+
+    <div id="app">
+   
+
+  
+
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+        <!-- Navbar -->
+        <center>
+            <h6 class="vedas">Pool Storage Management</h6>
+        </center>
+
+
+        <!-- End Navbar -->
+        <div class="container-fluid py-4">
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4" v-if="showshardscount_for_master || showshardscount_for_slave">
+                    <div class="card">
+                        <div class="card-header p-3 pt-2">
+                            <div
+                                class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">
+                                <i class="i">Total Shards</i>
+                            </div>
+                            <div class="text-end pt-1">
+
+                                <h4 class="mb-0">${shardscount}</h4>
+                            </div>
+                        </div>
+                        <hr class="dark horizontal my-0">
+
+                    </div>
+                </div>
+
+
+         
+     
+
+            </div>
+    
+            <div class="row mt-4">
+
+
+              
+
+
+                <div class="col-lg-1822001 mt-4 mb-3">
+                    <div class="card z-index-2 ">
+
+                        <div class="bg-gradient-primary  border-radius-lg py-3 pe-1">
+
+                            <div class="chart" id="masterContainer">
+                              
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-1822001 mt-4 mb-3">
+                    <div class="card z-index-2 ">
+
+                        <div class="bg-gradient-primary  border-radius-lg py-3 pe-1">
+
+                            <div class="chart" v-if="showSlaveChart"  id="slaveContainer">
+                            
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
+             
+
+                  
+
+                            <div class="chart" v-if="showShardsChart" id="shardContainer">
+
+</div>
+
+<div class="chart" v-if="showyearschartformaster" id="yearContainer">
+
+</div>
+
+
+                         
+
+
+      
+
+
+                <div class="col-lg-01691 mt-4 mb-3">
+                    <div class="card z-index-2 ">
+
+
+                        <div class="chart" id="hourlyChartContainer">
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+        </div>
+    </main>
+
+    </div>
+
+    <script src="{{url_for('static',filename='js/app.js')}}"></script>
+      
+
+</body>
+</html>
