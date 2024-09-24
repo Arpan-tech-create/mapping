@@ -1,0 +1,117 @@
+{
+    "T0S1P0G1": {
+        "2023": {
+            "8": {
+                "8": {
+                    "SEN2A_MSI_zzz_08AUG2023_119_T44QQG_ESA_STUBBAOJD_20230808T083855_20230808P0000": {
+                        "ovr_2.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_8.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_16.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_8.tif": {
+                            "fsize": 18653959
+                        },
+                        "ovr_64.tif": {
+                            "fsize": 414473
+                        },
+                        "ovr_4.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_16.tif": {
+                            "fsize": 5278591
+                        },
+                        "ovr_64.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_1.tif": {
+                            "fsize": 723932717
+                        },
+                        "ovr_32.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_32.tif": {
+                            "fsize": 1479596
+                        },
+                        "ovr_2.tif": {
+                            "fsize": 228527716
+                        },
+                        "ovr_1.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_128.tif": {
+                            "fsize": 119508
+                        },
+                        "ovr_128.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_4.tif": {
+                            "fsize": 65677572
+                        },
+                        "__folder_size__": 1044106140
+                    },
+                    "SEN2B_MSI_zzz_08AUG2023_048_T42QYM_ESA_STUBBAOJD_20230808T083257_20230808P0000": {
+                        "ovr_2.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_8.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_16.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_8.tif": {
+                            "fsize": 32138667
+                        },
+                        "ovr_64.tif": {
+                            "fsize": 637422
+                        },
+                        "ovr_4.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_16.tif": {
+                            "fsize": 8816864
+                        },
+                        "ovr_64.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_1.tif": {
+                            "fsize": 1296465042
+                        },
+                        "ovr_32.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_32.tif": {
+                            "fsize": 2375020
+                        },
+                        "ovr_2.tif": {
+                            "fsize": 407258536
+                        },
+                        "ovr_1.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_128.tif": {
+                            "fsize": 174620
+                        },
+                        "ovr_128.tif.aux.xml": {
+                            "fsize": 2751
+                        },
+                        "ovr_4.tif": {
+                            "fsize": 115871122
+                        },
+                        "__folder_size__": 1863759301
+                    },
+                    "__folder_size__": 2907865441
+                },
+                "__folder_size__": 2907865441
+            },
+            "__folder_size__": 2907865441
+        },
+        "__folder_size__": 2907865441453
+    },
+    "__folder_size__": 290786544156757456
+}
